@@ -1,0 +1,37 @@
+body {
+      background-color: rgb(46, 45, 45);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.conatiner {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+}
+
+.typewriter {
+      color: aliceblue;
+      width: 30%;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #212121;
+      animation: curssor 1s step-start infinite, text 2.5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+
+      0%,
+      100% {
+            border-color: #212121;
+      }
+}
+
+@keyframes text {
+      0% {
+            width: 0;
+      }
+}

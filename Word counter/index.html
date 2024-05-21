@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Word counter</title>
+  </head>
+  <body>
+    <div class="heading"><h1>Word Counter</h1></div>
+
+    <div class="container">
+      <textarea
+        name=""
+        id="input_text"
+        placeholder="Enter your text here..."
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div class="output_container">
+        <div class="output">
+          <p class="words">Words</p>
+          <span id="data_word_count">0</span>
+        </div>
+        <div class="output">
+          <p class="characters">Characters</p>
+          <span id="data_character_count">0</span>
+        </div>
+        <div class="output">
+          <p class="sentences">Sentences</p>
+          <span id="data_sentence_count">0</span>
+        </div>
+        <div class="output">
+          <p class="paragraphs">Paragraphs</p>
+          <span id="data_paragraph_count">0</span>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

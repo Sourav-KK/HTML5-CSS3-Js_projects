@@ -1,0 +1,47 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      background-color: #252424;
+      font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+      content: "Key hits";
+      color: brown;
+}
+
+h2 {
+      text-align: center;
+      color: beige;
+      font-size: xx-large;
+      font-weight: 500;
+      border-bottom: 0.1em solid rgb(240, 131, 41);
+}
+
+#activity {
+      height: 80%;
+      width: 50%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+}
+
+#counter {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+
+      border-width: 0.2em;
+      width: 55%;
+      border-radius: 10%;
+      border-color: aqua;
+      border-style: solid;
+      height: 80%;
+}
